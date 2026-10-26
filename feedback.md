@@ -1,3 +1,3 @@
-Feedback - Aula 02 e Aula 03
+# Feedback - Aula 03
 
-Miguel, na aula 2 as cinco rotas estão certas, nota completa, 0,21. Na aula 3 você tentou, mas o require está escrito errado, e o GET por id ainda usa um array que nem existe mais no seu código, então não funciona. Por isso ficou 0,05.
+Miguel, o seu servidor.js tem require('none:sqlite'), com 'none' no lugar de 'node', isso quebra o servidor assim que ele sobe. Além disso a rota GET /treinos/:id ainda usa treinos.find, uma variável que nem existe mais no seu código. Preciso lançar a nota até sexta-feira, corrige o nome do módulo pra node:sqlite e termina a migração dessa rota pro banco.
