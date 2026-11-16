@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require('express');
 const controller = require('./controllers/treinosController.js');
 
 const app = express();
