@@ -1,4 +1,4 @@
-const repository = require('../repositories/treinosRepository.js');
+const repository = require('../repositories/treinosRepositoy.js');
 
 function validarTreino(corpo) {
     if (typeof corpo.nome !== 'string' || corpo.nome.trim() === '') {
