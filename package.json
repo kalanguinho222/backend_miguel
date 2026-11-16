@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Projeto de **Programação Back-End I** — CEEP Pedro Boaretto Neto Técnico em Desenvolvimento de Sistemas",
   "main": "banco.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
