@@ -9,5 +9,11 @@ db.exec(`
         duracao INTEGER NOT NULL
     )
 `);
-
+db.exec(`
+    CREATE TABLE IF NOT EXISTS usuarios (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        usuario TEXT NOT NULL UNIQUE,
+        senha TEXT NOT NULL
+    )
+`);
 module.exports = db;
